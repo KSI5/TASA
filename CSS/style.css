@@ -1,0 +1,306 @@
+/*external css file */
+body {
+  font-family: "Times New Roman", Arial, sans-serif;
+  line-height: 1;
+  margin: 0 auto;
+  height: 100%;
+  background: linear-gradient(#f5fcc1 30%, #fffdf9 100%);
+
+}
+/**container**/
+#container{
+  border: 1px solid darkgoldenrod;
+min-width: 780px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: block;
+box-shadow: 0.625em 0 0.625em rgb(40, 40, 40, 1),/**16px equals 1em**/
+     -0.625em 0 0.625em rgb(40, 40, 40, 1);
+
+}
+
+/*header style */
+header {
+  height: 8em;
+  border-style: inset;
+  border-color: darkgoldenrod;
+  margin: 3px;
+  text-align: center;
+  color: #7a4d1d;
+  font-size: 1.2em;
+  padding-bottom: 22px;
+  text-shadow: 1px 2px 1px gold;
+
+}
+
+.style{
+  font-family: "Comic Sans MS", serif, "Book Antiqua";/**header slogan style**/
+  font-size: 15px;
+  font-style: oblique;
+}
+.intro{
+  font-family: "Comic Sans MS", serif, "Book Antiqua";/**form paragraph style**/
+  padding:1em 0em 0em 2em;
+
+}
+/**logo style**/
+.RosevilleLogo {
+  margin-bottom: -2em;
+}
+
+/**Start of nav styling**/
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+nav ul li {
+
+  display: inline-block;
+  padding: 1em 3em;
+  background-color:darkgoldenrod;
+  margin: 0 2em;
+  font-weight: bold;
+
+}
+nav a{
+  color: black;
+}
+nav ul li:hover {
+  background: gold;
+}
+nav ul li:active {
+  background-color: black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+/**end of nav styling**/
+
+/**first letter **/
+.first-letter {
+  font-size: 2em;
+  line-height: 1.1875em;
+  color: darkgoldenrod;
+}
+/**last sentence style**/
+.bold {
+  font-weight: bold;
+}
+
+/**Table styling**/
+td:hover {
+  background: darkgoldenrod;
+}
+
+.active {
+  padding: 0.115em;
+  background: darkgoldenrod;
+    color: white !important} /**Appointment dates**/
+
+.table {
+  padding: 1em;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  margin-left: 25px;
+  width: 37.5em;
+  float: left;
+}
+
+article p {
+  padding: 0.525em;
+  color: black;
+  text-align: center;
+}
+
+/**styling calender**/
+table, th, td {
+  border: solid 2px darkgoldenrod;
+  border-collapse: collapse;
+  margin-left: 2em;
+  height: 10px;
+padding: 0.525em;
+}
+th{
+  background-color: darkgoldenrod;
+  color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/**Calender onclick to create promotion css style**/
+.onclick{
+  margin-left: 8.5em;
+  background-color: darkgoldenrod;
+  padding: 4px;
+  width: 8em;
+  border-style: inset;
+
+
+
+}
+/** short message to click on button ushering viewer to view student's disciplinary code**/
+.script{
+  font-weight:bold;
+  font-style: oblique;
+  float:right;
+  margin-right:4em;
+}
+/** button for TOC**/
+.click{
+  margin-right:15em;
+  background-color: darkgoldenrod;
+  padding: 4px;
+  width: 8em;
+  text-align: center;
+  border-style: inset;
+  float: right;
+}
+/**Container imagine styling**/
+.imageContent {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 4em;
+
+}
+
+.description {
+  text-align: center;
+  font-weight: bolder;
+  width: 130px;
+  margin: 6px;
+}
+
+
+.img {
+  margin: 10px;
+  margin-left: 15px;
+  padding: 2px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 12px;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}
+
+/*** services styles**/
+.services {
+  margin: 20px;
+  margin-right: 4em;
+  margin-top: 3em;
+  padding: 2px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 15px;
+  width: 30em;
+  float: right;
+  text-align: center;
+}
+
+/*** footer styling**/
+footer {
+border: solid medium darkgoldenrod;
+background-color:darkgoldenrod;
+text-align: center;
+width: auto;
+clear: both;
+}
+/*** Create Promotions/page 2 styles**/
+/*** Create signup page 3 styles**/
+
+.form{
+  padding: 1em;
+}
+legend {
+font-weight: bold;
+}
+label.form{
+  float: left;
+ width: 6em;
+}
+
+label.contact {
+float: left;
+ text-align: right;
+ margin-right: 0.425em;
+ }
+ fieldset {
+  width: auto;
+  border: solid thin darkgoldenrod;
+  padding:2em;
+  margin:2em;
+
+ }
+fieldset.Con{
+  margin-top: 20px;
+}
+/***submit button css style**/
+.Sub{
+  background-color: darkgoldenrod;
+  font-size:  0.75em; /***12px**/
+   padding: 0.5em 1.5em;   /*** 8px & 24px**/
+   margin-left: 3em;
+   border: 2px solid darkgoldenrod;
+  border-radius: 5px;
+}
+.design{
+  border-radius: 4px;
+  box-sizing: border-box;
+   padding: 0.5em 0.75em;
+}
+/**styling the promotion drop down list**/
+.Promo{
+   border-radius: 4px;
+   font-family: "Comic Sans MS", serif, sans-serif;
+   padding: 0.5em 1.5em;
+}
+
+/* styles for a responsive webpage */
+/* below 780px 48.75em */
+@media screen and (max-width:48.75em) {
+
+#container { width:90%
+margin-left: auto;
+margin-right:auto;
+}
+header{
+width:90%
+border-style: inset;
+border-color: darkgoldenrod;
+text-align: center;
+}
+nav ul li{display: inline-block;
+  padding: 1em 4em;
+  width:75%;
+  background-color:darkgoldenrod;
+  margin-top:1em;
+  font-weight: bold;
+}
+
+.table {
+  padding: 1em;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  margin-left: 8em;
+  width: 90%;
+
+}
+.services {
+  margin: 20px;
+  margin-right:3em;
+  margin-top: 3em;
+  padding: 2px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 15px;
+  width: 90%;
+  float: right;
+  text-align: center;
+}
+/* End of styles for a responsive webpage */

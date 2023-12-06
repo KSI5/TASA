@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROSEVELLTE BEAUTY-PARLOUR</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/jpeg" href="images/favicon.ico">
+</head>
+
+<body>
+<div id="container">
+
+<header>
+<img src="images/RosevilleLogo.png" class="RosevilleLogo" alt="logo" width="120" height="90">
+  <h1>ROSEVILLE</h1>
+  <h3 class="style"> BEAUTY PARLOUR</h3>
+
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="create.html">PROMOTIONS</a></li>
+      <li><a href="signup.html">SIGN-UP</a></li>
+      <li><a href="toc.html">DISCIPLINARY CODES</a></li>
+  </ul>
+</nav>
+
+<p class="intro">Fill in space to create a Promotion</p>
+
+
+
+
+
+<form>
+  <fieldset>
+    <legend>Fill in Space</legend>
+
+
+
+<label  class="form">Short Message: </label> <textarea class="Promo" rows="7" cols="60" placeholder="Describe Promotion"></textarea>
+ <br>
+ <br>
+
+          		<label  class="form"> Date: </label><input class="design" type="number" name="date" id="date" placeholder="DD/MM/YYYY" >
+               <br>
+               <br>
+          	<label  class="form"> Time: </label>
+            <select>
+    					<option value="12:00PM TO 2:00PM">12:00PM - 2:00PM</option>
+    					<option value="2:00PM TO 4:00PM">2:00PM - 4:00PM</option>
+              <option value="4:00PM TO 6:00PM">4:00PM - 6:00PM</option>
+                  </select>
+                  <br>
+                  <br>
+
+                  <label class="form"> Duration: </label>
+          				<select name="Duration" class="Promo">
+          					<option value="15mins">15 mins</option>
+          					<option value="30mins">30 mins</option>
+          					<option value="60mins">60 mins</option>
+          					<option value="90mins">90 mins</option>
+   </select>
+   <br>
+   <br>
+
+   <label for="Venue" class="form">Venue: </label><input class="design" type="text" name="Venue" id="Venue" placeholder="Enter Promotion Venue" size="35">
+   <br>
+   <br>
+
+
+
+
+<label class="form">Promotion Type: </label>
+   <select name="promotion" class="Promo"  multiple size="3">
+     <option value="Pedicure">Pedicure</option>
+     <option value="Manicures">manicures</option>
+     <option value="Microshading">Microshading</option>
+     <option value="Gel nails">Gel nails</option>
+     <option value="Acrylic Ombré nails">Acrylic Ombré nails</option>
+     <option value="haircut">Hair-cut</option>
+   </select>
+
+</fieldset>
+
+
+<fieldset class="Con">
+  <legend> Available Refreshment(s)</legend>
+
+  <input type="checkbox" name="refreshment" value="Tea">Tea(R2.00)
+  <input type="checkbox" name="refreshment" value="Biscuit"> Biscuit(R3.00)
+  <input type="checkbox" name="refreshment" value="Pap & stew"> Pap & stew(R20.00)
+  <input type="checkbox" name="refreshment" value="Cold drink" >Cold drink(R8.00)
+  <input type="checkbox" name="refreshment" value="Jollof Rice" >Jollof Rice(R40.00)
+
+
+</fieldset>
+
+
+<fieldset class="Con">
+<legend>Contact Information</legend>
+<p><label class="contact">Name:</label><input class="design" size="30"
+ name="name" placeholder="Promoters name" id="name"> </p>
+<p><label class="contact">Email:</label><input class="design" size="30"
+ name="email" placeholder="example@example.com"  id="email"></p>
+<p><label class="contact">Phone:</label><input class="design" size="30"
+ name="phone" placeholder="0812345678" id="phone"></p>
+</fieldset>
+
+<p>
+<input type="submit" class="Sub" value="Submit Info">
+<input type="submit" class="Sub" value="Clear Info">
+
+</p>
+
+</form>
+
+
+<br>
+<footer>
+  <p><strong> Roseville Beauty Parlour &copy; 2020 &nbsp; All Rights Reserved</strong></p>
+
+</footer>
+</div>
+</body>
+</html>
